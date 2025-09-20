@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "username": "GamerPro",
+    "score": 15420,
+    "level": 45,
+    "avatar": "GP",
+    "country": "🇺🇸",
+    "games_played": 156,
+    "wins": 142,
+    "achievements": 28
+  },
+  {
+    "id": 2,
+    "username": "StarPlayer",
+    "score": 14890,
+    "level": 42,
+    "avatar": "SP",
+    "country": "🇬🇧",
+    "games_played": 134,
+    "wins": 128,
+    "achievements": 25
+  },
+  {
+    "id": 3,
+    "username": "EliteGamer",
+    "score": 13650,
+    "level": 38,
+    "avatar": "EG",
+    "country": "🇨🇦",
+    "games_played": 142,
+    "wins": 115,
+    "achievements": 22
+  },
+  {
+    "id": 4,
+    "username": "MasterPlayer",
+    "score": 12980,
+    "level": 35,
+    "avatar": "MP",
+    "country": "🇩🇪",
+    "games_played": 118,
+    "wins": 105,
+    "achievements": 19
+  },
+  {
+    "id": 5,
+    "username": "GameChamp",
+    "score": 11750,
+    "level": 32,
+    "avatar": "GC",
+    "country": "🇫🇷",
+    "games_played": 98,
+    "wins": 89,
+    "achievements": 17
+  },
+  {
+    "id": 6,
+    "username": "SkillMaster",
+    "score": 11420,
+    "level": 31,
+    "avatar": "SM",
+    "country": "🇯🇵",
+    "games_played": 112,
+    "wins": 92,
+    "achievements": 16
+  },
+  {
+    "id": 7,
+    "username": "ProGamer",
+    "score": 10890,
+    "level": 29,
+    "avatar": "PG",
+    "country": "🇰🇷",
+    "games_played": 87,
+    "wins": 78,
+    "achievements": 15
+  },
+  {
+    "id": 8,
+    "username": "GameWizard",
+    "score": 10350,
+    "level": 28,
+    "avatar": "GW",
+    "country": "🇧🇷",
+    "games_played": 92,
+    "wins": 74,
+    "achievements": 14
+  },
+  {
+    "id": 9,
+    "username": "TopPlayer",
+    "score": 9920,
+    "level": 27,
+    "avatar": "TP",
+    "country": "🇦🇺",
+    "games_played": 76,
+    "wins": 68,
+    "achievements": 13
+  },
+  {
+    "id": 10,
+    "username": "GameLegend",
+    "score": 9580,
+    "level": 26,
+    "avatar": "GL",
+    "country": "🇮🇳",
+    "games_played": 84,
+    "wins": 65,
+    "achievements": 12
+  }
+]

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard - GameHub</title>
+    <meta name="description" content="View top players and compete for the highest scores">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo"><a href="../index.html">GameHub</a></h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="games.html" class="nav-link">Games</a>
+                <a href="leaderboard.html" class="nav-link active">Leaderboard</a>
+                <a href="news.html" class="nav-link">News</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Leaderboard -->
+    <section class="page-section leaderboard">
+        <div class="container">
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1 class="page-title">Global Leaderboard</h1>
+                <p class="page-subtitle">Compete with players worldwide and climb to the top</p>
+            </div>
+
+            <!-- Top 3 Podium -->
+            <div class="podium-container">
+                <div class="podium" id="podium">
+                    <!-- Top 3 players will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Leaderboard Sections -->
+            <div class="leaderboard-sections">
+                <!-- Top 10 -->
+                <div class="leaderboard-section active">
+                    <button class="section-toggle" data-section="top10">
+                        <h3>Top 10 Players</h3>
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                    <div class="section-content" id="top10-content">
+                        <div class="leaderboard-list" id="top10-list">
+                            <!-- Top 10 will be loaded dynamically -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Top 50 -->
+                <div class="leaderboard-section">
+                    <button class="section-toggle" data-section="top50">
+                        <h3>Top 50 Players</h3>
+                        <span class="toggle-icon">▶</span>
+                    </button>
+                    <div class="section-content" id="top50-content">
+                        <div class="leaderboard-list" id="top50-list">
+                            <!-- Top 50 will be loaded dynamically -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Top 100 -->
+                <div class="leaderboard-section">
+                    <button class="section-toggle" data-section="top100">
+                        <h3>Top 100 Players</h3>
+                        <span class="toggle-icon">▶</span>
+                    </button>
+                    <div class="section-content" id="top100-content">
+                        <div class="leaderboard-list" id="top100-list">
+                            <!-- Top 100 will be loaded dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">GameHub</h3>
+                    <p class="footer-text">The ultimate destination for gaming enthusiasts worldwide.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                        <a href="#" class="social-link" aria-label="YouTube">📺</a>
+                        <a href="#" class="social-link" aria-label="Discord">💬</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="games.html">Games</a></li>
+                        <li><a href="leaderboard.html">Leaderboard</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Community Guidelines</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GameHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/leaderboard.js"></script>
+    <script src="../js/navigation.js"></script>
+</body>
+</html>

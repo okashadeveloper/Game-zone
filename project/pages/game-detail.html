@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Detail - GameHub</title>
+    <meta name="description" content="Play and discover details about this amazing game">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo"><a href="../index.html">GameHub</a></h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="games.html" class="nav-link active">Games</a>
+                <a href="leaderboard.html" class="nav-link">Leaderboard</a>
+                <a href="news.html" class="nav-link">News</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Game Detail -->
+    <section class="page-section game-detail">
+        <div class="container">
+            <!-- Game Header -->
+            <div class="game-header" id="game-header">
+                <div class="game-banner">
+                    <img id="game-banner" src="" alt="Game Banner" class="banner-image">
+                    <div class="banner-overlay">
+                        <div class="game-info">
+                            <h1 class="game-title" id="game-title">Loading...</h1>
+                            <div class="game-meta">
+                                <span class="game-category" id="game-category"></span>
+                                <span class="game-rating" id="game-rating">⭐ 0.0</span>
+                            </div>
+                            <p class="game-description" id="game-description">Loading game description...</p>
+                            <div class="game-actions">
+                                <button class="btn btn-primary btn-glow" id="play-btn">
+                                    <span>▶ Play Now</span>
+                                </button>
+                                <button class="btn btn-outline" id="fullscreen-btn">
+                                    <span>⛶ Play Fullscreen</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Game Player -->
+            <div class="game-player" id="game-player" style="display: none;">
+                <div class="player-container">
+                    <iframe id="game-iframe" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="player-controls">
+                    <button class="btn btn-outline" id="close-player">Close Game</button>
+                </div>
+            </div>
+
+            <!-- Game Details -->
+            <div class="game-details">
+                <div class="details-grid">
+                    <div class="details-main">
+                        <h3>About This Game</h3>
+                        <p id="game-full-description">Loading detailed description...</p>
+                        
+                        <div class="game-features">
+                            <h4>Game Features</h4>
+                            <ul id="game-features">
+                                <li>Loading features...</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="details-sidebar">
+                        <div class="game-stats">
+                            <h4>Game Stats</h4>
+                            <div class="stat-item">
+                                <span class="stat-label">Release Date</span>
+                                <span class="stat-value" id="release-date">-</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Developer</span>
+                                <span class="stat-value" id="developer">-</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Category</span>
+                                <span class="stat-value" id="category-detail">-</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Players</span>
+                                <span class="stat-value" id="players-count">-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Games -->
+            <div class="related-games">
+                <h3 class="section-title">Related Games</h3>
+                <div class="related-games-grid" id="related-games-grid">
+                    <!-- Related games will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">GameHub</h3>
+                    <p class="footer-text">The ultimate destination for gaming enthusiasts worldwide.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                        <a href="#" class="social-link" aria-label="YouTube">📺</a>
+                        <a href="#" class="social-link" aria-label="Discord">💬</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="games.html">Games</a></li>
+                        <li><a href="leaderboard.html">Leaderboard</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Community Guidelines</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GameHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/game-detail.js"></script>
+    <script src="../js/navigation.js"></script>
+</body>
+</html>
