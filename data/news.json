@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Major Update: New Gaming Engine Released",
+    "excerpt": "Experience next-generation gaming with our revolutionary new engine featuring advanced physics, improved graphics, and enhanced performance.",
+    "content": "We're excited to announce the release of our revolutionary new gaming engine that will transform your gaming experience forever. After months of intensive development and testing, we're proud to introduce features that push the boundaries of what's possible in modern gaming.",
+    "category": "updates",
+    "date": "2024-03-15",
+    "author": "GameHub Team",
+    "image": "https://images.pexels.com/photos/586063/pexels-photo-586063.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "featured": true,
+    "readTime": "5 min"
+  },
+  {
+    "id": 2,
+    "title": "Spring Tournament Championship Results",
+    "excerpt": "Congratulations to all participants in this season's epic gaming tournament. Check out the winners and highlight moments.",
+    "content": "The Spring Tournament Championship has concluded with incredible performances from players around the world. This season saw record participation with over 10,000 players competing across multiple game categories.",
+    "category": "tournaments",
+    "date": "2024-03-12",
+    "author": "Tournament Staff",
+    "image": "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "featured": false,
+    "readTime": "3 min"
+  },
+  {
+    "id": 3,
+    "title": "New Game Release: Cosmic Adventure",
+    "excerpt": "Embark on an interstellar journey in our latest space exploration game featuring stunning visuals and immersive gameplay.",
+    "content": "Get ready to explore the cosmos like never before in Cosmic Adventure, our latest addition to the GameHub catalog.",
+    "category": "releases",
+    "date": "2024-03-10",
+    "author": "Development Team",
+    "image": "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "featured": false,
+    "readTime": "4 min"
+  },
+  {
+    "id": 4,
+    "title": "Game Review: Battle Arena Deep Dive",
+    "excerpt": "Our comprehensive review of the latest multiplayer battle arena game, including gameplay analysis and competitive insights.",
+    "content": "Battle Arena has taken the gaming world by storm with its innovative combat system and competitive gameplay.",
+    "category": "reviews",
+    "date": "2024-03-08",
+    "author": "Review Team",
+    "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "featured": false,
+    "readTime": "7 min"
+  },
+  {
+    "id": 5,
+    "title": "Platform Security Enhancement Update",
+    "excerpt": "We've implemented advanced security measures to protect your gaming experience and personal data.",
+    "content": "Your security is our top priority. Learn about our latest security enhancements and how they protect your gaming experience.",
+    "category": "updates",
+    "date": "2024-03-05",
+    "author": "Security Team",
+    "image": "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "featured": false,
+    "readTime": "6 min"
+  },
+  {
+    "id": 6,
+    "title": "Community Spotlight: Player Stories",
+    "excerpt": "Discover amazing stories from our gaming community and learn about their incredible achievements.",
+    "content": "Every week, we feature inspiring stories from our incredible gaming community. This week, we're highlighting some amazing achievements.",
+    "category": "updates",
+    "date": "2024-03-03",
+    "author": "Community Team",
+    "image": "https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "featured": false,
+    "readTime": "4 min"
+  }
+]

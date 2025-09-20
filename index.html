@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub - Ultimate Gaming Experience</title>
+    <meta name="description" content="Discover amazing games, compete on leaderboards, and stay updated with gaming news">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">GameHub</h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="pages/games.html" class="nav-link">Games</a>
+                <a href="pages/leaderboard.html" class="nav-link">Leaderboard</a>
+                <a href="pages/news.html" class="nav-link">News</a>
+                <a href="pages/contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="parallax-layer" data-speed="0.2"></div>
+            <div class="parallax-layer" data-speed="0.5"></div>
+            <div class="parallax-layer" data-speed="0.8"></div>
+        </div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">
+                    <span class="animate-text">Welcome to</span>
+                    <span class="hero-brand animate-text-delayed">GameHub</span>
+                </h1>
+                <p class="hero-subtitle animate-fade-up">
+                    Discover amazing games, compete with players worldwide, and immerse yourself in the ultimate gaming experience
+                </p>
+                <div class="hero-buttons animate-fade-up-delayed">
+                    <a href="pages/games.html" class="btn btn-primary btn-glow">
+                        <span>Explore Games</span>
+                    </a>
+                    <a href="pages/leaderboard.html" class="btn btn-outline">
+                        <span>View Leaderboard</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Featured Games Preview -->
+    <section class="section featured-games" id="featured-games">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Games</h2>
+                <a href="pages/games.html" class="section-link">
+                    See All Games <span class="arrow">→</span>
+                </a>
+            </div>
+            <div class="games-carousel" id="games-carousel">
+                <div class="carousel-track" id="carousel-track">
+                    <!-- Games will be loaded dynamically -->
+                </div>
+                <button class="carousel-btn prev" id="prev-btn" aria-label="Previous games">‹</button>
+                <button class="carousel-btn next" id="next-btn" aria-label="Next games">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaderboard Preview -->
+    <section class="section leaderboard-preview" id="leaderboard-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Top Players</h2>
+                <a href="pages/leaderboard.html" class="section-link">
+                    View Full Leaderboard <span class="arrow">→</span>
+                </a>
+            </div>
+            <div class="leaderboard-cards" id="leaderboard-preview-cards">
+                <!-- Top 3 players will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- News Preview -->
+    <section class="section news-preview" id="news-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest News</h2>
+                <a href="pages/news.html" class="section-link">
+                    View All News <span class="arrow">→</span>
+                </a>
+            </div>
+            <div class="news-grid" id="news-preview-grid">
+                <!-- Latest news will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">GameHub</h3>
+                    <p class="footer-text">The ultimate destination for gaming enthusiasts worldwide.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                        <a href="#" class="social-link" aria-label="YouTube">📺</a>
+                        <a href="#" class="social-link" aria-label="Discord">💬</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="pages/games.html">Games</a></li>
+                        <li><a href="pages/leaderboard.html">Leaderboard</a></li>
+                        <li><a href="pages/news.html">News</a></li>
+                        <li><a href="pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Community Guidelines</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GameHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">GameHub</div>
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+</body>
+</html>
